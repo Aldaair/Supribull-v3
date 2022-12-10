@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+$primario: #3E3C61;
+$secundario: #A7BCFF;
+$terciario:#5D5B8D;
+$cuartiario: #DDDDF7;
+
+.content-all-post{
+    width: 100%;
+    background-color: $cuartiario;
+    padding: 5%;
+
+    .wid-post{
+        width: 100%;
+        height: 350px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        position: relative;
+
+        .perfil-post{
+            background-color: $primario;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+
+            img{
+                width:35px;
+                height:35px;
+            }
+            h4{
+                font-size: 17px;
+             margin: 0 0 0 4px;
+             color: white;
+            }
+        }
+    }
+    .content-post-show{
+        width: 60%;
+        background-color: white;
+        height: 100%;
+        
+        .titulo-carta{
+            color: $primario;
+            padding: 15px;
+        }
+        .desp{
+            padding: 0 15px;
+        }
+        .botones{
+            width: 100%;
+            display: flex;
+            align-items: flex-end;
+            justify-content: end;
+            position: relative;
+            height: 50px;
+            padding: 0 15px;
+        }
+        .botones button{
+            background-color: $primario;
+            color: white;
+            outline: none;
+            border-radius: 5px;
+            padding: 10px 25px;
+            border: none;
+          
+        }
+    }
+
+    .content-comentarios{
+        width: 40%;
+        height: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        .title-coment{
+            width: 100%;
+            background-color: #38365a;
+            padding: 13.4px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            h4{
+                margin: 0;
+            }
+    
+        }
+    }
+    .content-num-coment{
+        padding: 10px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        height: 100%;
+        .num-coment{
+            width: 100%;
+            padding: 10px;
+            background-color: #eff3ff;
+            border-bottom-right-radius:5px ;
+            word-wrap: break-word;
+        }
+    }
+    .comentarios{
+        width: 100%;
+        background-color: $terciario;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .form-comentario{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            input{
+                width: 70%;
+                background-color: white;
+                text-decoration: none;
+                outline: none;
+                border: 1.5px solid #ccc;
+                padding: 10px;
+            }
+            button{
+                border: none;
+                outline: none;
+                color: white;
+                background-color: $primario;
+                padding: 10px 15px;
+                width: 30%;
+            }
+        }
+      
+    }
+  
+    }
+

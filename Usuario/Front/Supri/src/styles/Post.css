@@ -1,0 +1,59 @@
+.botones{
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+.btn-f{
+    width: 100%;
+    padding: 10px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    text-align: center;
+    color: rgb(82, 82, 82);
+    cursor: pointer;
+    transition: .5s;
+    font-size: 14px;
+
+}
+.btn-f:hover{
+    box-shadow: 0px -50px inset rgb(240, 240, 240);
+    transition: .5s;
+    color: black;
+}
+.btn-comentario{
+  border-right: 1px solid  #ccc;
+}
+.btn-eliminar{
+background-color: transparent;
+}
+
+.perfil{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+}
+.perfil img{
+    width: 30px;
+    height: 30px;
+}
+.perfil h4{
+    color: rgb(26, 26, 26);
+    position: relative;
+    top: -6px;
+
+font-size: 17px;
+    padding:0 5px ;
+}
+.titulo-carta{
+    margin:0 0 0;
+    border-top: 1px solid rgb(220, 220, 220);
+    position: relative;
+    top: -10px;
+
+    padding: 10px 0;
+}
